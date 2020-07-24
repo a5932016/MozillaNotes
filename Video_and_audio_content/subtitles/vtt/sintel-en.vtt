@@ -1,0 +1,11 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:3.000
+<v Test>[Test]</v>
+
+NOTE This is a comment and must be preceded by a blank line
+
+2
+00:00:3.000 --> 00:00:7.000
+This blade has a dark past.

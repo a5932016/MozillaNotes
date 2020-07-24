@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+	<meta charset="utf-8" />
+	<title>Styled Video Player with Subtitles - Mozilla</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv-printshiv.min.js" type="text/javascript"></script><![endif]-->
+</head>
+<body>
+
+<video id="video" controls poster="images/poster.png">
+	<source src="videos/rabbit320.mp4" type="video/mp4">
+	<source src="videos/rabbit320.webm" type="video/webm">
+	<track label="English" kind="subtitles" srclang="en" src="subtitles/vtt/sintel-en.vtt">
+	<p>你的瀏覽器不支持 HTML5 影頻。</p>
+</video>
+<br>
+<audio controls>
+  <source src="audios/viper.mp3" type="audio/mp3">
+  <source src="audios/viper.ogg" type="audio/ogg">
+  <p>你的瀏覽器不支持 HTML5 音頻。</p>
+</audio>
+</body>
+</html>
